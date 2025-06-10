@@ -242,7 +242,7 @@ action:
                 conditions:
                   - condition: state
                     entity_id: !input printer_print_status_sensor
-                    state: running
+                    state: RUNNING
             then:
               - stop: ""
           - if:
